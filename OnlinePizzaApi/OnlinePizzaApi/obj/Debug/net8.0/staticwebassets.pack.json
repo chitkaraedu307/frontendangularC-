@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\AussiePizza.jpg",
+      "PackagePath": "staticwebassets\\images\\AussiePizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\CheeseNCornPizza.jpg",
+      "PackagePath": "staticwebassets\\images\\CheeseNCornPizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\ChickenPizza.jpg",
+      "PackagePath": "staticwebassets\\images\\ChickenPizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\KaleAndSausagePizza.jpg",
+      "PackagePath": "staticwebassets\\images\\KaleAndSausagePizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\MacnCheesePizza.jpg",
+      "PackagePath": "staticwebassets\\images\\MacnCheesePizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\MexicanGreenWavePizza.jpg",
+      "PackagePath": "staticwebassets\\images\\MexicanGreenWavePizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\PaneerMakhniPizza.jpg",
+      "PackagePath": "staticwebassets\\images\\PaneerMakhniPizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\PaneerPizza.jpg",
+      "PackagePath": "staticwebassets\\images\\PaneerPizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\PepperoniPizza.jpg",
+      "PackagePath": "staticwebassets\\images\\PepperoniPizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\SpringPizza.jpg",
+      "PackagePath": "staticwebassets\\images\\SpringPizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\capricciosa.jpg",
+      "PackagePath": "staticwebassets\\images\\capricciosa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\farmhouse.jpg",
+      "PackagePath": "staticwebassets\\images\\farmhouse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\hawaiian.jpg",
+      "PackagePath": "staticwebassets\\images\\hawaiian.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\pizzamargherita.jpg",
+      "PackagePath": "staticwebassets\\images\\pizzamargherita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kapil.x1\\Downloads\\OnlinePizzaApi_1\\OnlinePizzaApi\\OnlinePizzaApi\\wwwroot\\images\\veggiedeluxepizza.jpg",
+      "PackagePath": "staticwebassets\\images\\veggiedeluxepizza.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OnlinePizzaApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OnlinePizzaApi.props",
+      "PackagePath": "build\\OnlinePizzaApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OnlinePizzaApi.props",
+      "PackagePath": "buildMultiTargeting\\OnlinePizzaApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OnlinePizzaApi.props",
+      "PackagePath": "buildTransitive\\OnlinePizzaApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
