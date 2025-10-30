@@ -1,0 +1,47 @@
+CREATE TABLE pizza(
+	[pizzaid] [varchar](10) primary key,
+	[pizzaname] [varchar](40) NULL,
+	[description] [varchar](90) NULL,
+	[price] [int] NULL,
+	[pimage] [varchar](50) NULL
+	)
+
+
+
+	insert into pizza values(1,'AussiePizza','australian veg pizza',200,'images/AussiePizza.jpg')
+	insert into pizza values(2,'capricciosa','veg capricciosa ',210,'images/capricciosa.jpg')
+	insert into pizza values(3,'CheeseNCornPizza','popular cheese pizza',180,'images/CheeseNCornPizza.jpg')
+	insert into pizza values(4,'ChickenPizza','chicken indian type',340,'images/ChickenPizza.jpg')
+	insert into pizza values(5,'farmhouse','veg farm pizza',500,'images/farmhouse.jpg')
+	insert into pizza values(6,'hawaiian','non veg pizza ',700,'images/hawaiian.jpg')
+	insert into pizza values(7,'KaleAndSausagePizza','veg souce pizza',590,'images/KaleAndSausagePizza.jpg')
+	insert into pizza values(8,'MacnCheesePizza','cheese veg pizza',380,'images/MacnCheesePizza.jpg')
+	insert into pizza values(9,'MexicanGreenWavePizza','maxican style pizza',450,'images/MexicanGreenWavePizza.jpg')
+	insert into pizza values(10,'veggiedeluxepizza','indian veg pizza',190,'images/veggiedeluxepizza.jpg')
+	insert into pizza values(11,'PaneerMakhniPizza','indian paneer style',280,'images/PaneerMakhniPizza.jpg')
+	insert into pizza values(12,'PaneerPizza','basic paneer pizza',200,'images/PaneerPizza.jpg')
+	insert into pizza values(13,'PepperoniPizza','pepper type pizza',340,'images/PepperoniPizza.jpg')
+	insert into pizza values(14,'pizzamargherita','veg margherita',600,'images/pizzamargherita.jpg')
+	insert into pizza values(15,'SpringPizza','seasonal pizza',270,'images/SpringPizza.jpg')
+	
+
+
+create table Register
+(
+uname varchar(20) primary key,
+password varchar(20),
+gender bit,
+DOB datetime,
+email varchar(50),
+)
+
+
+CREATE TABLE userorders
+(
+	[tranid] [int] identity(10,10) primary key,
+	[username] [varchar](20) NULL,
+	[pizzaid] [varchar](10) NULL,
+	[transdate] [date] NULL,
+	[qty] [int] NULL
+	)
+

@@ -1,0 +1,41 @@
+<p>login works!</p>
+  <style>
+    
+    .inval{border: 3px solid red;}
+    .val{border: 3px solid green;}
+  </style>      
+<form #frm="ngForm" (ngSubmit)="validate(frm.value)">
+    {{frm.value | json}}
+
+
+    <label>Enter username</label>
+    <div *ngIf="u.errors?.['required'] && u.touched">Username is required</div>
+    <div *ngIf="u.errors?.['pattern'] && u.touched">Enter Alphabets</div>
+        <input type="text" required pattern="[a-z]+" #u="ngModel" name="uid" ngModel class="form-control" [class.val]="u.valid && u.touched" [class.inval]="u.invalid && u.touched"/>
+      
+            
+       <label>Touched</label> {{u.touched}}
+
+       <label>UnTouched</label> {{u.untouched}}
+
+       <label>Dirty</label> {{u.dirty}}
+
+       <label>pristine</label>    {{u.pristine}}
+
+       <label>valid</label> {{u.valid}}
+
+       <label>InValid</label> {{u.invalid}}
+ 
+    <label>Enter Password</label>
+    <div *ngIf="u.errors?.['required'] && u.touched">Password is required</div>
+        <input type="password" required name="pwd" ngModel class="form-control" />
+        
+    <input type="submit" value="Login" [disabled] ="frm.form.invalid" class="btn btn-primary" />
+    
+    
+    </form>
+
+    <div class="alert alert-danger">
+        {{error}}
+    </div>
+    

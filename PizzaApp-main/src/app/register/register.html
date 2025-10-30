@@ -1,0 +1,17 @@
+<p>register works!</p>
+
+<form #frm="ngForm" (ngSubmit)="Adduser(frm.value)">
+    <label>username</label>
+    <input type="text" ngModel name="uname" class=form-control/>
+    <label>password</label>
+     <input type="text" ngModel name="password" class=form-control/>
+    <label>gender</label>
+     <input type="radio" ngModel name="gender" [value]="true" class=form-inputcontrol/>
+     <input type="radio" ngModel name="gender" [value]="false" class=form-inputcontrol/>
+    <label>dob</label>
+     <input type="date" ngModel name="DOB" class=form-control/>
+     
+    <label>Email</label>
+         <input type="text" ngModel name="email" class=form-control/>
+<input type="submit" value="Register" class="btn btn-primary"/>
+</form>
