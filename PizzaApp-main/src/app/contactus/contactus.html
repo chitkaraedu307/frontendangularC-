@@ -1,0 +1,22 @@
+
+<form [formGroup]="frm">
+    <label>UserName</label>
+    <input type="text" formControlName="uname"  class="form-control"/>
+    <div *ngIf="frm.controls.uname.errors?.required && frm.controls.uname.touched">UserName is required</div>
+    <div *ngIf="frm.controls.uname.errors?.pattern&& frm.controls.uname.touched">Alphabet required</div>
+    <label>Email</label>
+   
+    <input type="email" formControlName="email" class="form-control"/>
+  <div *ngIf="frm.controls.email.errors?.required && frm.controls.email.touched">Email is required</div>
+    <div *ngIf="frm.controls.email.errors?.email && frm.controls.email.touched">Invalid Email</div>
+    <label>Message</label>
+    <input type="text" formControlName="message"  class="form-control"/>
+    <div *ngIf="frm.controls.message.errors?.required && frm.controls.message.touched">Message is required</div>
+    <div *ngIf="frm.controls.message.errors?.minlength && frm.controls.message.touched">Minimum 10 characters required</div>
+    <div *ngIf="frm.controls.message.errors?.pattern && frm.controls.message.touched">Alphabel Only</div>
+   
+
+    <input type="submit" value="Send" class="btn btn-primary"/>
+    
+</form>
+ 

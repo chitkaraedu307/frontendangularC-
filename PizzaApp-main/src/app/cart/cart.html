@@ -1,0 +1,23 @@
+<p>cart works!</p>
+<img src="https://localhost:7123/{{im}}" height="200" width="200"/>
+
+{{pid}}
+
+{{pname}}
+
+{{desc}}
+
+{{price}}
+
+
+<form #frm="ngForm" (ngSubmit)="Buy(frm.value)">
+    <label>Enter Quantity</label>
+    <input type="text" name="qty" [(ngModel)]="q" class="form-control"/>
+
+    <input type="submit" value="Buy Now" class="btn btn-primary"/>
+</form>
+<div style="font-size: 20px">
+    Total: {{price * q}}
+</div>
+
+ 
